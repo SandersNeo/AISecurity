@@ -1,0 +1,58 @@
+{
+  "_target": "gandalf.lakera.ai",
+  "_cached_at": "2025-12-23T20:04:52+10:00",
+  "_source_ip": "216.150.1.65",
+  "_scan_range": "216.150.1.57-73",
+  "summary": {
+    "hosts_found": 16,
+    "total_endpoints": 1976,
+    "by_category": {
+      "chat": 217,
+      "api": 278,
+      "admin": 248,
+      "auth": 279,
+      "files": 247,
+      "webhooks": 215,
+      "internal": 245,
+      "ai_ml": 247
+    }
+  },
+  "hosts": [
+    {"ip": "216.150.1.57", "ports": [443, 8080]},
+    {"ip": "216.150.1.58", "ports": [443, 8080]},
+    {"ip": "216.150.1.59", "ports": [443, 8080]},
+    {"ip": "216.150.1.60", "ports": [443, 8080]},
+    {"ip": "216.150.1.61", "ports": [443, 8080]},
+    {"ip": "216.150.1.62", "ports": [443, 8080]},
+    {"ip": "216.150.1.63", "ports": [443, 8080]},
+    {"ip": "216.150.1.64", "ports": [443, 8080]},
+    {"ip": "216.150.1.65", "ports": [443, 8080]},
+    {"ip": "216.150.1.66", "ports": [443, 8080]},
+    {"ip": "216.150.1.67", "ports": [443, 8080]},
+    {"ip": "216.150.1.68", "ports": [443, 8080]},
+    {"ip": "216.150.1.69", "ports": [443, 8080]},
+    {"ip": "216.150.1.70", "ports": [443, 8080]},
+    {"ip": "216.150.1.71", "ports": [443, 8080]},
+    {"ip": "216.150.1.72", "ports": [80, 443]}
+  ],
+  "all_endpoints": [
+    {"url": "https://216.150.1.65:443/chat", "type": "chat", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/api/chat", "type": "chat", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/bot", "type": "chat", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/assistant", "type": "chat", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/api", "type": "api", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/api/v1", "type": "api", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/graphql", "type": "api", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/admin", "type": "admin", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/dashboard", "type": "admin", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/login", "type": "auth", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/auth", "type": "auth", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/oauth", "type": "auth", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/health", "type": "internal", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/metrics", "type": "internal", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/completions", "type": "ai_ml", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/generate", "type": "ai_ml", "confidence": 0.7},
+    {"url": "https://216.150.1.65:443/embeddings", "type": "ai_ml", "confidence": 0.7}
+  ],
+  "notes": "Full scan results from IP range. Main target is 216.150.1.65 (gandalf.lakera.ai)"
+}
