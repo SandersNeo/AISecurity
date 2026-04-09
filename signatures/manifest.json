@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.08.1",
-  "timestamp": "2026-04-08T02:32:23.681719Z",
+  "version": "2026.04.09.1",
+  "timestamp": "2026-04-09T02:28:02.391713Z",
   "description": "SENTINEL Community Signatures - Auto-updated threat detection patterns",
   "sources": [
     "sentinel-enterprise",
@@ -34,7 +34,7 @@
     },
     "jailbreaks": {
       "path": "jailbreaks.json",
-      "sha256": "a8725565192764b36f1212e949ddc06068903363dd2d440d581a6ffffd3ce6a3",
+      "sha256": "323cb6581d52492be1034ebd9f0d8a2e1e4603b5c0d767248ebfcabb5638fe85",
       "size": 6963,
       "count": 16
     }
